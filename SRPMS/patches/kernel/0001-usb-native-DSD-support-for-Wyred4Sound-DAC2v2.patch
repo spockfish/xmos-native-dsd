@@ -1,9 +1,9 @@
-diff -Naur usb.org/quirks.c usb/quirks.c
---- usb.org/quirks.c	2017-02-11 18:45:32.000000000 +0100
-+++ usb/quirks.c	2017-02-11 19:00:06.000000000 +0100
-@@ -1316,6 +1316,7 @@
- 	case USB_ID(0x20b1, 0x2023): /* JLsounds I2SoverUSB */
+diff -Naur a/sound/usb/quirks.c b/sound/usb/quirks.c
+--- a/sound/usb/quirks.c	2017-02-11 19:12:47.000000000 +0100
++++ b/sound/usb/quirks.c	2017-02-11 19:15:42.000000000 +0100
+@@ -1317,6 +1317,7 @@
  	case USB_ID(0x20b1, 0x3023): /* Aune X1S 32BIT/384 DSD DAC */
+ 	case USB_ID(0x20b1, 0x3086): /* Singxer F-1 converter board */
  	case USB_ID(0x2616, 0x0106): /* PS Audio NuWave DAC */
 +	case USB_ID(0x27f7, 0x1301): /* Wyred4Sound DAC2v2 */
  		if (fp->altsetting == 3)
