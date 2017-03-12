@@ -1,5 +1,15 @@
 Linux native DSD playback support
 =================================
+[24-Feb-17]<br>
+<br>
+Remove old MPD 0.18 SRPM<br>
+Add MPD 0.19.19 source RPM with native DSD patch included<br>
+<br>
+[18-Feb-17]<br>
+<br>
+Add support for HDTA Serenade DSD<br>
+Add support for Mutec MC3+ USB<br>
+<br>
 [23-Jan-17]<br>
 <br>
 Fix Singxer F-1 converter board patch<br>
